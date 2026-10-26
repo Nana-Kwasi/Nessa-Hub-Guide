@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>NessaHub Guide — everything NessaHub does, explained</title>
+  <meta name="description" content="The complete guide to NessaHub: therapy, medical care, psychiatry, second opinions, home care, prescriptions, labs, scans, insurance, and every dashboard for patients, clinicians, pharmacies, labs, insurers and administrators." />
+  <meta name="theme-color" content="#0b2a4a" />
+  <meta property="og:title" content="NessaHub Guide" />
+  <meta property="og:description" content="Everything NessaHub does, explained — with search." />
+  <meta property="og:image" content="/assets/nessahub-logo.png" />
+  <link rel="icon" href="/assets/nessahub-logo.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/theme.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open chapters"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <a class="brand" href="#/" aria-label="NessaHub Guide home">
+      <img class="logo-light" src="/assets/nessahub-logo.png" alt="NessaHub" />
+      <img class="logo-dark" src="/assets/nessahub-logo-white.png" alt="NessaHub" />
+      <span class="tag">Guide</span>
+    </a>
+    <span class="spacer"></span>
+    <button class="search-trigger" id="search-btn" type="button" aria-label="Search the guide">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.3-4.3"/></svg>
+      <span>Search everything…</span>
+      <kbd id="kbd-hint">Ctrl K</kbd>
+    </button>
+    <button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle theme"></button>
+    <a class="cta" href="https://nessahub.com" target="_blank" rel="noopener" aria-label="Open NessaHub"><span class="label">Open NessaHub</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </header>
+
+  <div class="layout home" id="layout">
+    <nav class="side" id="side" aria-label="Chapters"></nav>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <span>© <span id="year"></span> NessaHub · Made in Accra, Ghana</span>
+      <nav aria-label="Footer">
+        <a href="https://nessahub.com" target="_blank" rel="noopener">NessaHub</a>
+        <a href="https://onboard.nessahub.com" target="_blank" rel="noopener">Join as a provider</a>
+        <a href="https://policy.nessahub.com" target="_blank" rel="noopener">Policies</a>
+        <a href="#/help/crisis">Crisis support</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="palette-backdrop" id="palette" aria-hidden="true">
+    <div class="palette" role="dialog" aria-modal="true" aria-label="Search the guide">
+      <div class="palette-input">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.3-4.3"/></svg>
+        <input id="palette-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search features, dashboards, policies…" aria-label="Search" aria-controls="palette-results" />
+        <kbd>Esc</kbd>
+      </div>
+      <div class="palette-results" id="palette-results" role="listbox"></div>
+      <div class="p-foot"><span><kbd>↑</kbd><kbd>↓</kbd> to move</span><span><kbd>Enter</kbd> to open</span><span><kbd>Esc</kbd> to close</span></div>
+    </div>
+  </div>
+
+  <script src="/content/01-start.js"></script>
+  <script src="/content/02-care.js"></script>
+  <script src="/content/03-services.js"></script>
+  <script src="/content/04-clinicians.js"></script>
+  <script src="/content/05-partners.js"></script>
+  <script src="/content/06-platform.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

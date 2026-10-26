@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "nessahub-47d89"
+  },
+  "targets": {
+    "nessahub-47d89": {
+      "hosting": {
+        "guide": [
+          "nessahub-guide"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
