@@ -65,7 +65,7 @@ window.GUIDE.chapters.push(
           ["h", "Your sessions"],
           ["ul", [
             "Every session with date, time, duration, status and notes. **Join** when it is time.",
-            "Edit a session's details — this is possible in the 24 hours before it starts.",
+            "**Edit** a session — change the date, time, duration or notes — any time until the cut-off before it starts (set by NessaHub; you are told if it has passed). A new time goes back to your therapist to confirm.",
             "The **Calendar** shows your sessions by month; tap a day to see its sessions or **Book another**."
           ]],
           ["h", "Your therapist"],
