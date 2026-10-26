@@ -8,7 +8,7 @@
 
   var APP_URL = "https://nessahub.com";
   var CHAPTERS = (window.GUIDE && window.GUIDE.chapters) || [];
-  var GROUP_ORDER = ["Start here", "For patients & clients", "Features everyone uses", "For clinicians", "For partners", "For NessaHub teams", "Trust"];
+  var GROUP_ORDER = ["Start here", "For patients & clients", "Features everyone uses", "For clinicians", "For partners", "For NessaHub teams", "Screen by screen", "Trust"];
 
   // ------------------------------------------------------------------ icons
   var ICONS = {
