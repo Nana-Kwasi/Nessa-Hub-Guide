@@ -201,18 +201,21 @@ window.GUIDE.chapters.push(
           ["h", "How the conversation works"],
           ["ul", [
             "**It answers when you pause.** You don't need to press anything when you've finished speaking. If you stop mid-sentence (“If I take it with food,…”) it says “Mm-hmm” and keeps listening; if you only say “um…” it says “Take your time”.",
-            "**It speaks as it thinks.** The reply is read out sentence by sentence while the rest is still being written, and the words on screen appear in step with the voice.",
+            "**It tells you it is thinking.** If an answer takes a moment, it says so out loud — “Let me think this through.”, and if it is still working, “Still working on it, thanks for waiting.” It says nothing like that after a simple “hi” or “thanks”.",
+            "**It speaks as it thinks.** The reply is read out sentence by sentence while the rest is still being written, and the words on screen appear in step with the voice — until the voice starts you see “Thinking…”, not the text.",
+            "**It always speaks.** If the natural voice is slow to arrive, your phone or browser's own voice reads that part instead, so an answer is never left as text alone.",
             "**Long answers stay on screen.** After a short spoken part it says “I've put the rest on your screen”, so lists and figures can be read at your own pace.",
             "**You can interrupt.** Start talking while it speaks (or tap the orb) and it stops straight away. The text on screen stops where the voice did, and it answers your new question.",
             "**Health terms are read properly.** Blood pressure, doses (“500mg twice a day”), units and amounts in cedis are spoken as words, not symbols.",
             "**It tells you when it didn't hear.** If nothing clear was said it asks you to say it again; if the connection drops it says so, rather than guessing."
           ]],
           ["h", "Reading the orb"],
+          ["p", "Each conversation opens with one of five orbs, chosen at random: a violet **lotus**, blue **ripple**, mint **pebble**, lime **star** or gold **blossom**. They all move the same way:"],
           ["table", ["What you see", "What it means"], [
-            ["Rings ripple with your voice", "It is listening"],
-            ["Rings spin with a small spark circling", "It is working out the answer"],
-            ["Centre breathes, rings pulse", "It is speaking"],
-            ["Grey and still", "Muted — tap the orb to talk again"]
+            ["The layers swell and ripple with your voice", "It is listening"],
+            ["The layers turn, alternate ones the other way", "It is working out the answer"],
+            ["The centre breathes and the layers pulse", "It is speaking"],
+            ["Faded and still", "Muted — tap the orb to talk again"]
           ]],
           ["h", "Safety and privacy"],
           ["ul", [
@@ -221,7 +224,7 @@ window.GUIDE.chapters.push(
             "Recordings are used only to turn your speech into text and are not kept. Nothing is uploaded until you actually start speaking.",
             "Voice has its own hourly limit, separate from the question limit, so a few minutes of talking does not use up your allowance."
           ]],
-          ["note", "Tips: use it somewhere fairly quiet, and hold the phone or sit near the computer. On a computer, headphones make interrupting easier; you can also press the **Space** bar instead of tapping the orb. On iPhone you can simply talk over the assistant to interrupt it."],
+          ["note", "Tips: use it somewhere fairly quiet, and hold the phone or sit near the computer. On a computer, headphones make interrupting easier; you can also press the **Space** bar instead of tapping the orb. On iPhone you can simply talk over the assistant to interrupt it — except while your device's own voice is reading, when you tap the orb."],
           ["faq", [
             ["Can I still send a single voice message instead?", "Yes. The **microphone** button records one message, turns it into text and sends it, like typing it."],
             ["Why doesn't it hear me?", "Check the microphone permission for NessaHub in your browser or phone settings, make sure voice mode isn't muted, and speak a little closer to the microphone."],
