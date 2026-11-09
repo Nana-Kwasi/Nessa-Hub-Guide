@@ -150,7 +150,7 @@ window.GUIDE.chapters.push(
         body: [
           ["p", "Sign in from **Log in** with your email and password. After sign-in you are taken straight to the dashboard for your role."],
           ["h", "Two-step sign-in"],
-          ["p", "If two-step sign-in is on for your account, NessaHub emails you a 6-digit code every time you sign in. Even if someone learns your password, they cannot get in without the code."],
+          ["p", "If two-step sign-in is on for your account, NessaHub sends you a 6-digit code every time you sign in, by email or text message. You choose which in Settings; text needs a verified mobile number. Even if someone learns your password, they cannot get in without the code."],
           ["h", "Forgot your password?"],
           ["steps", [
             "On the Log in page choose **Forgot password**.",
