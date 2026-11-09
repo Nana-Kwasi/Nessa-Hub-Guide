@@ -251,7 +251,7 @@ window.GUIDE.chapters.push({
         ["steps", [
           "Choose the patient and the **specialty** (for example Cardiology).",
           "Write **why you are referring** — required, and in your own words.",
-          "NessaHub gathers **the packet** from the record — the history, medicines, results and notes relevant to your reason. Read it and edit anything before it goes.",
+          "NessaHub gathers **the packet** from the record — the history, medicines, results and notes relevant to your reason. Check it against the record, edit anything, and tick to confirm you have.",
           "Choose where it goes: a **clinician on NessaHub** (search by name or specialty) or an **email address** for a specialist outside NessaHub.",
           "**Submit referral**, or **Save as draft**."
         ]],

@@ -32,7 +32,7 @@ window.GUIDE.chapters.push(
           ["ul", [
             "**Log your mood**: pick how you feel (very sad to very happy, anxious, tired, frustrated…), write about your day, something positive and anything difficult. Your therapist can see it.",
             "**Tap a date on the calendar** to book a session on that day, or to see what is already booked.",
-            "**Get help** opens the crisis contacts: National Emergency 112, National Ambulance 193, the Mental Health Authority helpline, suicide prevention and Accra Psychiatric Hospital."
+            "**Get help** opens the crisis contacts: National Emergency 112, National Ambulance 193, the Mental Health Authority helpline and Accra Psychiatric Hospital."
           ]],
           ["h", "Example"],
           ["p", "Kojo opens the app in the evening. Home shows his next session is Thursday at 6 pm. He logs his mood as “Anxious” and writes that work was stressful. His therapist sees the entry before Thursday and starts the session by asking about it."]

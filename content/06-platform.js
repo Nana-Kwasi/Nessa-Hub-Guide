@@ -277,12 +277,13 @@ window.GUIDE = window.GUIDE || { chapters: [] };
           id: "crisis",
           title: "Crisis & emergencies",
           summary: "NessaHub is not an emergency service — what to do if someone is at risk.",
-          keywords: "crisis emergency suicide self-harm danger urgent help 988",
+          keywords: "crisis emergency suicide self-harm danger urgent help ghana 112 193 helpline",
           body: [
-            ["warn", "If you or someone else is in immediate danger, call your local emergency services now."],
+            ["warn", "If you or someone else is in immediate danger, call **112** now."],
             ["ul", [
-              "In the United States and Canada, call or text **988** (Suicide & Crisis Lifeline).",
-              "Elsewhere, contact your local emergency number or crisis line.",
+              "**112** — Ghana's national emergency number, 24/7. For an ambulance you can also call **193**.",
+              "**0800 678 678** — the Mental Health Authority's toll-free helpline, 24/7, including for thoughts of suicide.",
+              "**0302 228 688** — emergency line at Accra Psychiatric Hospital.",
               "Reach out to someone you trust who can stay with you.",
               "Continue any care plan you already have with your licensed clinician."
             ]],

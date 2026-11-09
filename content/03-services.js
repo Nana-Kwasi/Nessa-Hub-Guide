@@ -180,7 +180,9 @@ window.GUIDE.chapters.push(
             ["Clinical summary — summarise a patient’s record", "Clinicians only", "Yes"],
             ["Document summary — summarise a document you provide", "Everyone", "Only the document"]
           ]],
-          ["p", "For clinicians the assistant also drafts notes, care plans, referrals and letters, suggests codes, prepares pre-session briefs and daily briefings, and highlights gaps in a record — always as drafts for the clinician to read, edit and approve."]
+          ["p", "For clinicians the assistant also drafts notes, care plans, referrals and letters, suggests codes, prepares pre-session briefs and daily briefings, and highlights gaps in a record — always as drafts for the clinician to read, edit and approve."],
+          ["note", "AI briefings, referral packets, transfer summaries, record-search summaries, note drafts and the assistant's answers about a patient's own care are checked automatically against the patient's record or the session transcript. If a number, date, dose, medicine or name does not match, the draft is withheld and you write it yourself. The check cannot judge meaning, so you must still read every draft against the record, and confirm you have before a referral or transfer goes."],
+          ["note", "The first time a patient or client opens the assistant, they are asked to agree to their information being sent to NessaHub's AI provider. The assistant stays closed until they agree, and their care does not change if they do not."]
         ]
       },
       {

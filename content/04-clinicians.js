@@ -70,7 +70,7 @@ window.GUIDE.chapters.push(
           ["ul", [
             "**Order Lab / Scan** — choose the test and the centre. The order and a verification link go to the centre and appear for the patient.",
             "**Results** come back to you first. Review them and share with the patient with a note.",
-            "**Referrals** — NessaHub gathers the relevant record; you read and edit it before sending.",
+            "**Referrals** — NessaHub gathers the relevant record; you check it against the record, edit it and confirm before sending.",
             "**Transfers** — the patient is asked to consent. If they do not answer after two reminders, or no new clinician is chosen within 24 hours, NessaHub may reassign automatically."
           ]]
         ]
