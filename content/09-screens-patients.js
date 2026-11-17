@@ -23,6 +23,7 @@ window.GUIDE.chapters.push(
             "**Your therapist**, with Message and Log mood — or, if you have not chosen one yet, **Find a Therapist** to browse therapists and their session rates.",
             "**Next session** with **Join session**, or **Book a session** if nothing is booked.",
             "**Daily check-in** — “How are you today?”",
+            "**Forms to read and sign** and **Questionnaires to fill in**, when your therapist sends them. Read each form, tick that you agree and type your name to sign.",
             "**Your progress** — sessions completed, progress score, goals achieved, days active, and charts of your mood and therapy progress.",
             "**Recent activities**, your **prescriptions** (psychiatry), and a **calendar**.",
             "**Need help now?** — Ghana crisis lines, available 24/7.",
@@ -156,6 +157,7 @@ window.GUIDE.chapters.push(
           ["ul", [
             "**Next appointment** (video, audio or chat) with **Join Call**, and **Upcoming appointments**.",
             "**Your doctor** and **My care team** — or **Find a Doctor** if you have none yet.",
+            "**Forms to read and sign** and **Questionnaires to fill in**, when your doctor sends them.",
             "Counts: pending, upcoming, active, awaiting confirmation, completed and total; your **prescriptions**.",
             "**Your vitals**, **Mood & pain trend** from your daily check-ins, and an appointment breakdown.",
             "**Quick actions** to every section, **Recent activity**, and **My appointments calendar**."

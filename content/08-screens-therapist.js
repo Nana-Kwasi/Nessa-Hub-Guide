@@ -39,7 +39,7 @@ window.GUIDE.chapters.push({
       id: "th-clients",
       title: "Clients and the client record",
       summary: "Your caseload, and each client's full record: sessions, notes, moods, goals, intake answers, prescriptions and pharmacies.",
-      keywords: "clients caseload client record profile notes goals intake questionnaire mood reassign discharge hold transfer",
+      keywords: "clients caseload client record profile notes goals measures phq-9 gad-7 scores intake questionnaire mood reassign discharge hold transfer",
       body: [
         ["h", "The Clients list"],
         ["ul", [
@@ -53,6 +53,12 @@ window.GUIDE.chapters.push({
           "Their **intake questionnaire** — every answer and the total score.",
           "**Sessions**, **therapy notes**, **clinical notes** and **mood entries**.",
           "**Treatment goals** — add goals with a target date and priority, and mark them completed.",
+          "**Timeline** — everything on the chart in one list, newest first: sessions, notes, prescriptions, lab and scan results, questionnaire scores, mental status exams, diagnoses and treatment plans. A past session with no note shows **+ Progress note**. A banner at the top lists what is missing: sessions without notes, no mental status exam, or a diagnosis without a treatment plan.",
+          "**Mental status** — a structured exam: appearance, behaviour, speech, mood in the client's words, affect, thought process and content, perception, cognition, insight, judgement, and risk. Suicidal thoughts and thoughts of harming others must be answered. Active thoughts cannot be saved as low risk, and high risk needs a safety plan.",
+          "**Diagnosis & plan** — WHO ICD-10 diagnoses (as NHIS uses them) with onset date, one primary, and resolved or ruled out when they change. The treatment plan has a presenting problem, goals with objectives, interventions and target dates, session frequency and a review date. Every save is a new version and earlier versions are kept.",
+          "**Private notes** — psychotherapy notes only you can read. Other clinicians treating the client, the client, the AI assistant, exports and transfers never see them.",
+          "**Share forms** — send the client a consent to care by video, how their information is used, and your session policies (with your own notice period), plus PHQ-9 or GAD-7, in one go. The client reads and signs each form by typing their name; every signature goes into their consent history with the version they read. **Add to waitlist** puts the client on your waitlist.",
+          "**Measures** — send a PHQ-9 (depression) or GAD-7 (anxiety) questionnaire once or every 1, 2 or 4 weeks. The client is told in the app and by text. Scores are graphed against the severity bands, with the change since the first and the last result. If a client answers the PHQ-9 self-harm question above zero, you get an urgent notification and they are shown the crisis numbers straight away.",
           "For psychiatry: **prescriptions** and the client's **pharmacies**; any **second opinion request**."
         ]],
         ["h", "Writing a session note"],
@@ -166,6 +172,21 @@ window.GUIDE.chapters.push({
         ["p", "Ask a client a question between sessions — for example about sleep, mood or coping — and follow the answers over time. It works exactly as for doctors (see “Doctor dashboard → Check-ins”)."],
         ["h", "Example"],
         ["p", "On Monday the mood dashboard shows Ama in **Trending down**. Her therapist sends a check-in — “How has your sleep been this week?” — and brings their session forward."]
+      ]
+    },
+    {
+      id: "th-practice",
+      title: "Waitlist & Time Off",
+      summary: "Your waitlist, time off that blocks bookings, and your own session policies.",
+      keywords: "waitlist time off out of office away leave holiday cancellation policy notice reminders text sms",
+      body: [
+        ["ul", [
+          "**Waitlist** — clients who want an earlier time, with their preferred times. **Offer a slot** tells the client an earlier time is free; mark them **Booked** or **Remove** them.",
+          "**Time off** — no one can book you in that time, through any booking screen or the assistant. Sessions already booked are listed first: you can cancel them and the clients are told in the app and by text. A paid session you cancel is refunded in full by NessaHub; the client does not have to ask.",
+          "**Session policies** — how much notice clients must give to cancel or move a session (24, 48 or 72 hours; never less than NessaHub's default), and whether they get a text reminder the day before. The text does not name you or the service."
+        ]],
+        ["h", "Example"],
+        ["p", "A psychiatrist will be at a conference from Wednesday to Friday. She adds the time off, sees two sessions already booked, and ticks cancel. Both clients get a message and a text; one had paid and is refunded in full. She then offers the freed Monday slot to the first client on her waitlist."]
       ]
     },
     {
