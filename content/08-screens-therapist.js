@@ -57,7 +57,7 @@ window.GUIDE.chapters.push({
           "**Mental status** — a structured exam: appearance, behaviour, speech, mood in the client's words, affect, thought process and content, perception, cognition, insight, judgement, and risk. Suicidal thoughts and thoughts of harming others must be answered. Active thoughts cannot be saved as low risk, and high risk needs a safety plan.",
           "**Diagnosis & plan** — WHO ICD-10 diagnoses (as NHIS uses them) with onset date, one primary, and resolved or ruled out when they change. The treatment plan has a presenting problem, goals with objectives, interventions and target dates, session frequency and a review date. Every save is a new version and earlier versions are kept.",
           "**Private notes** — psychotherapy notes only you can read. Other clinicians treating the client, the client, the AI assistant, exports and transfers never see them.",
-          "**Share forms** — send the client a consent to care by video, how their information is used, and your session policies (with your own notice period), plus PHQ-9 or GAD-7, in one go. The client reads and signs each form by typing their name; every signature goes into their consent history with the version they read. **Add to waitlist** puts the client on your waitlist.",
+          "**Share forms** — send the client a consent to care by video, how their information is used, and your session policies (with your own notice period), plus PHQ-9 or GAD-7 and your own client forms, in one go. The client reads and signs each form by typing their name; every signature goes into their consent history with the version they read. **Add to waitlist** puts the client on your waitlist.",
           "**Measures** — send a PHQ-9 (depression) or GAD-7 (anxiety) questionnaire once or every 1, 2 or 4 weeks. The client is told in the app and by text. Scores are graphed against the severity bands, with the change since the first and the last result. If a client answers the PHQ-9 self-harm question above zero, you get an urgent notification and they are shown the crisis numbers straight away.",
           "For psychiatry: **prescriptions** and the client's **pharmacies**; any **second opinion request**."
         ]],
@@ -176,14 +176,19 @@ window.GUIDE.chapters.push({
     },
     {
       id: "th-practice",
-      title: "Waitlist & Time Off",
-      summary: "Your waitlist, time off that blocks bookings, and your own session policies.",
-      keywords: "waitlist time off out of office away leave holiday cancellation policy notice reminders text sms",
+      title: "My Practice",
+      summary: "Your goals, waitlist, time off, session policies, calendar sync, announcements and templates.",
+      keywords: "my practice waitlist time off out of office away leave holiday cancellation policy notice reminders text sms call voice goals target income earnings caseload calendar google outlook apple sync announcement message all clients template form builder custom note",
       body: [
         ["ul", [
           "**Waitlist** — clients who want an earlier time, with their preferred times. **Offer a slot** tells the client an earlier time is free; mark them **Booked** or **Remove** them.",
           "**Time off** — no one can book you in that time, through any booking screen or the assistant. Sessions already booked are listed first: you can cancel them and the clients are told in the app and by text. A paid session you cancel is refunded in full by NessaHub; the client does not have to ask.",
-          "**Session policies** — how much notice clients must give to cancel or move a session (24, 48 or 72 hours; never less than NessaHub's default), and whether they get a text reminder the day before. The text does not name you or the service."
+          "**Session policies** — how much notice clients must give to cancel or move a session (24, 48 or 72 hours; never less than NessaHub's default), and whether they get a text reminder the day before. The text does not name you or the service.",
+          "**Goals** — sessions this week against your weekly target, active clients, and what you earned this month (after commission and refunds) against your income goal. A short version is on your Home screen.",
+          "**Automatic help** — switch on **offer cancelled times to my waitlist** and, whenever a session is cancelled, the person who has waited longest is told the time is free (not when it is under 3 hours away, inside your time off, or already booked again; never the person who cancelled). Switch on **reminder calls** for an automated phone reminder the day before; it names neither you nor the service and is never placed between 8 pm and 8 am.",
+          "**Calendar sync** — a private link to add your sessions to Google, Outlook or Apple Calendar. Events say only “NessaHub session”, or the client's initials if you choose. Make a new link if the old one is shared by mistake.",
+          "**Announcements** — one message to all your clients or the ones you choose, in the app, with an optional text that only says there is a new message. Up to 5 a day.",
+          "**Templates** — build your own note layouts and client forms from short answers, paragraphs, choices, 0 to 10 scales, yes/no and dates. Use a note template with **Write with my template** on a client's Notes tab; send a client form with **Share forms**, and read the answers on the client's page."
         ]],
         ["h", "Example"],
         ["p", "A psychiatrist will be at a conference from Wednesday to Friday. She adds the time off, sees two sessions already booked, and ticks cancel. Both clients get a message and a text; one had paid and is refunded in full. She then offers the freed Monday slot to the first client on her waitlist."]
