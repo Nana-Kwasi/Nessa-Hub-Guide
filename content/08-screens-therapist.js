@@ -194,6 +194,21 @@ window.GUIDE.chapters.push({
         ["p", "A psychiatrist will be at a conference from Wednesday to Friday. She adds the time off, sees two sessions already booked, and ticks cancel. Both clients get a message and a text; one had paid and is refunded in full. She then offers the freed Monday slot to the first client on her waitlist."]
       ]
     },
+      {
+        id: "th-community",
+        title: "Journal tab and Community moderation",
+        summary: "Read what clients share from their journal, and moderate community groups.",
+        keywords: "journal shared entries community moderation moderator held posts reports pause remove safety",
+        body: [
+          ["ul", [
+          "**Journal tab** on a client's or patient's page shows only the journal entries they chose to share with their care team. An entry with a safety concern is marked, and you are notified when one is shared.",
+          "**Community moderation** — if an administrator makes you a moderator of a group, held posts and reports for your groups appear here, safety concerns first. **Publish**, **Remove**, **Pause member 7 days** or **Remove writer from group**; for a report, **Nothing wrong** or **Restore it**. Every action is logged, and the writer is told when a post is taken down.",
+          "When a member's post suggests they may harm themselves, you are notified straight away. Review it, and if you can, reach out through their care team."
+          ]],
+          ["h", "Example"],
+          ["p", "A therapist moderates the Grief and loss group. A post arrives saying “I can't go on without her”. It is held and the therapist is notified. She reads it, leaves it hidden, and the member's own therapist reaches out the same afternoon."]
+        ]
+      },
     {
       id: "th-psychiatry",
       title: "Prescriptions, Prescription Requests and Lab / Scan (psychiatry)",

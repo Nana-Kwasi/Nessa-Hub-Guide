@@ -111,6 +111,29 @@ window.GUIDE.chapters.push(
           ["p", "Yaw's psychiatrist prescribes a tablet to take every night. In My Care, Yaw sets a reminder for 9 pm. Each night he taps **Taken**, and on Sunday he answers his weekly check-in, saying his sleep has improved to 7 hours."]
         ]
       },
+        {
+          id: "cl-journal-community",
+          title: "My Journal and Community",
+          summary: "Your private journal, and moderated groups where people encourage each other.",
+          keywords: "journal diary progress mood photos weight steps sleep blood pressure sugar prompts programme reminder lock pdf community group support nickname moderator report",
+          body: [
+            ["ul", [
+            "**My Journal** — write freely about how you are doing: health, fitness, beauty, longevity or your mind. Add a mood (from very low to great), photos, tags and measurements such as weight, steps, sleep, water, blood pressure and blood sugar. Use **bold**, lists and checklists.",
+            "**Private unless you share it.** Only you can read your journal. Tick **Share this entry with my care team** on an entry and the doctors and therapists treating you can read that entry, and nothing else.",
+            "**Charts and look-backs** — your mood over the last 30 days, your measurements over six months, how many days in a row you have written, a calendar of your entries, and **On this day** (what you wrote a week, a month or a year ago).",
+            "**Guided programmes** — a prompt a day for a week: gratitude, mental wellness, moving more, mindful eating, self-care for skin and hair, and healthy ageing.",
+            "**Daily reminder** at the time you choose, only on days you have not written. On the phone app you can also **lock the journal with Face ID or your fingerprint**, and save it as a PDF.",
+            "If an entry suggests you may harm yourself, NessaHub shows you the crisis numbers (112, or the Mental Health Authority helpline on 0800 678 678, free). If you shared that entry, your care team is told too.",
+            "**Community** — groups for health conditions (diabetes, blood pressure and heart health, sickle cell, asthma, pregnancy and new parents), for fitness, skin and beauty, healthy ageing and sleep, and for the mind (low mood, anxiety and stress, grief). Medical patients and therapy clients can join any group.",
+            "**You take part under a nickname**, not your name, because belonging to a group says something about your health. Read and accept the group rules to join.",
+            "Post a win, a struggle or a question; reply; and react with **Encourage**, **Me too** or **Thank you**. You can post a journal entry to a group from the journal.",
+            "**Moderated.** Posts that mention self-harm, give advice about stopping or changing medicines, or contain links or phone numbers wait for a moderator first; you see them marked “only you can see this for now”. Report anything worrying or unkind; three reports hide a post until a moderator looks.",
+            "Groups are for support, not medical advice. Your clinician decides your treatment. In an emergency, call 112."
+            ]],
+            ["h", "Example"],
+            ["p", "Esi is working on her anxiety with her therapist. Each evening she writes a few lines in her journal and picks a mood; on Fridays she shares that week's entry with her therapist. She also joined the Anxiety and stress group as “CalmWaters”, where another member's breathing tip helped her before a job interview."]
+          ]
+        },
       {
         id: "cl-psychiatry",
         title: "Prescriptions, E-Pharmacy, Lab & Scan and Health Timeline (psychiatry clients)",
@@ -269,6 +292,29 @@ window.GUIDE.chapters.push(
           ["p", "Ama's care plan says to check her blood pressure twice a week. Her doctor also sends a check-in every Friday asking for the readings; Ama answers it in My Care in under a minute."]
         ]
       },
+        {
+          id: "pt-journal-community",
+          title: "My Journal and Community",
+          summary: "Track your progress in a private journal, and meet people on the same journey.",
+          keywords: "journal diary progress mood photos weight steps sleep blood pressure sugar prompts programme reminder lock pdf community group support nickname moderator report",
+          body: [
+            ["ul", [
+            "**My Journal** — write freely about how you are doing: health, fitness, beauty, longevity or your mind. Add a mood (from very low to great), photos, tags and measurements such as weight, steps, sleep, water, blood pressure and blood sugar. Use **bold**, lists and checklists.",
+            "**Private unless you share it.** Only you can read your journal. Tick **Share this entry with my care team** on an entry and the doctors and therapists treating you can read that entry, and nothing else.",
+            "**Charts and look-backs** — your mood over the last 30 days, your measurements over six months, how many days in a row you have written, a calendar of your entries, and **On this day** (what you wrote a week, a month or a year ago).",
+            "**Guided programmes** — a prompt a day for a week: gratitude, mental wellness, moving more, mindful eating, self-care for skin and hair, and healthy ageing.",
+            "**Daily reminder** at the time you choose, only on days you have not written. On the phone app you can also **lock the journal with Face ID or your fingerprint**, and save it as a PDF.",
+            "If an entry suggests you may harm yourself, NessaHub shows you the crisis numbers (112, or the Mental Health Authority helpline on 0800 678 678, free). If you shared that entry, your care team is told too.",
+            "**Community** — groups for health conditions (diabetes, blood pressure and heart health, sickle cell, asthma, pregnancy and new parents), for fitness, skin and beauty, healthy ageing and sleep, and for the mind (low mood, anxiety and stress, grief). Medical patients and therapy clients can join any group.",
+            "**You take part under a nickname**, not your name, because belonging to a group says something about your health. Read and accept the group rules to join.",
+            "Post a win, a struggle or a question; reply; and react with **Encourage**, **Me too** or **Thank you**. You can post a journal entry to a group from the journal.",
+            "**Moderated.** Posts that mention self-harm, give advice about stopping or changing medicines, or contain links or phone numbers wait for a moderator first; you see them marked “only you can see this for now”. Report anything worrying or unkind; three reports hide a post until a moderator looks.",
+            "Groups are for support, not medical advice. Your clinician decides your treatment. In an emergency, call 112."
+            ]],
+            ["h", "Example"],
+            ["p", "Kofi has type 2 diabetes. He logs his fasting sugar and steps in his journal most mornings and shares the entries with his doctor before each visit. In the Living with diabetes group, as “SugarSteady”, he posts that his sugar came down after a month of evening walks, and five members encourage him."]
+          ]
+        },
       {
         id: "pt-account",
         title: "Billing, Insurance, Emergency Contacts, Settings and Support",

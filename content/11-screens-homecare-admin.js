@@ -181,6 +181,21 @@ window.GUIDE.chapters.push(
           ["p", "Activity monitor shows 40 failed sign-ins on one account overnight. The admin suspends the account and contacts its owner to reset the password."]
         ]
       },
+        {
+          id: "ad-community",
+          title: "Community",
+          summary: "Manage community groups and moderators, and moderate any group.",
+          keywords: "community groups moderators add remove archive audience held posts reports safety",
+          body: [
+            ["ul", [
+            "**Groups** — add a group, rename it, describe it, choose its section (health conditions; fitness, beauty and longevity; mind) and who may join (everyone, medical patients only, or therapy clients only), or archive it.",
+            "**Moderators** — search staff by name or email and add them to a group; patients and clients cannot be moderators. Remove a moderator with ×. A group with no moderator is covered by administrators.",
+            "**Moderation** — you can review held posts and reports in every group. Administrators are also notified of every post that suggests a member may harm themselves."
+            ]],
+            ["h", "Example"],
+            ["p", "An administrator adds a new group, “Living with HIV”, open to everyone, and makes two clinicians its moderators. Both get a notification and see the group in their Community moderation screen."]
+          ]
+        },
       {
         id: "ad-engagement-system",
         title: "Engagement and system settings",

@@ -349,6 +349,21 @@ window.GUIDE.chapters.push({
         ["p", "Before the rainy season Dr Owusu sends a wellness message on preventing malaria. The same week NessaHub proposes 20% off first consultations for a month; he approves it, and it goes live."]
       ]
     },
+      {
+        id: "doc-community",
+        title: "Journal tab and Community moderation",
+        summary: "Read what patients share from their journal, and moderate community groups.",
+        keywords: "journal shared entries community moderation moderator held posts reports pause remove safety",
+        body: [
+          ["ul", [
+          "**Journal tab** on a client's or patient's page shows only the journal entries they chose to share with their care team. An entry with a safety concern is marked, and you are notified when one is shared.",
+          "**Community moderation** — if an administrator makes you a moderator of a group, held posts and reports for your groups appear here, safety concerns first. **Publish**, **Remove**, **Pause member 7 days** or **Remove writer from group**; for a report, **Nothing wrong** or **Restore it**. Every action is logged, and the writer is told when a post is taken down.",
+          "When a member's post suggests they may harm themselves, you are notified straight away. Review it, and if you can, reach out through their care team."
+          ]],
+          ["h", "Example"],
+          ["p", "Dr Owusu moderates the Living with diabetes group. A member posts “stop taking metformin, cinnamon works better”. The post is held for medicine advice. Dr Owusu removes it, and the member is told why."]
+        ]
+      },
     {
       id: "doc-feedback",
       title: "Patient Feedback, Reviews and Analytics",
