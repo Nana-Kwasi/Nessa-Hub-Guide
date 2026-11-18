@@ -196,6 +196,23 @@ window.GUIDE.chapters.push(
             ["p", "An administrator adds a new group, “Living with HIV”, open to everyone, and makes two clinicians its moderators. Both get a notification and see the group in their Community moderation screen."]
           ]
         },
+        {
+          id: "ad-engagement-controls",
+          title: "Feature switches, limits and Practice & engagement",
+          summary: "Turn the new features on or off, set their limits, see how they are used and make sure every safety flag is followed up.",
+          keywords: "feature switches system config journal community questionnaires psychiatry record intake templates announcements calendar waitlist reminder calls limits engagement usage safety follow up texts calls log",
+          body: [
+            ["ul", [
+            "**System Config › Features** has a switch for each new feature: My Journal, Community groups, Questionnaires, Psychiatry record, Intake forms, Custom templates, Clinician announcements, Calendar sync, Automatic waitlist offers and Reminder phone calls. The server enforces each switch, so web and the phone app obey alike, and the menus hide what is off.",
+            "Switching a feature off never takes away what people already have: the journal and clinical records stay readable (the journal shows a notice that writing is paused), past questionnaire results stay in the record, and admins can still manage community groups. Calendar sync off stops every calendar link at once.",
+            "**System Config › Practice & community** sets the limits: announcements per clinician per day, community posts and replies per member per day, how many reports hide a post, how soon a freed time can be offered to the waitlist, and the hours when reminder calls are never placed.",
+            "**Practice & engagement** shows how much each feature is used (counts only), the announcement log, and every reminder, waitlist and announcement text and call with its status (numbers masked, message text never shown).",
+            "**Safety** (in Practice & engagement) lists the last 30 days' safety flags still waiting for someone: shared journal entries, questionnaire self-harm answers, community posts and replies held for self-harm language, and “I am worried about this person” reports. It shows who it is about and who was told, never what was written; private journal entries are never listed. Record what was done with **Mark followed up**. The menu shows a red count while any are waiting."
+            ]],
+            ["h", "Example"],
+            ["p", "Before Hubtel and the call provider are ready, the super admin switches Reminder phone calls off. In Practice & engagement she sees three questionnaire self-harm answers this week; for each she confirms the psychiatrist has called the client, and marks it followed up with a note."]
+          ]
+        },
       {
         id: "ad-engagement-system",
         title: "Engagement and system settings",
