@@ -148,7 +148,9 @@ window.GUIDE.chapters.push(
         summary: "Email and password, plus an optional 6-digit email code each time you sign in.",
         keywords: "login log in two-factor 2fa code password forgot reset",
         body: [
-          ["p", "Sign in from **Log in** with your email and password. After sign-in you are taken straight to the dashboard for your role."],
+          ["p", "Sign in from **Log in** with your email and password, or with Face ID or a fingerprint on the phone app. After sign-in you are taken straight to the dashboard for your role."],
+          ["h", "Choosing medical or therapy"],
+          ["p", "If you use both medical care and therapy, NessaHub asks “Where would you like to go?” right after you sign in. Tap **Medical** (doctors, prescriptions, lab and scan results, your health record) or **Therapy** (your therapist, sessions, journal, community and wellbeing). The one you used last is marked. Each dashboard loads its own information, and you can switch at any time from the menu."],
           ["h", "Two-step sign-in"],
           ["p", "If two-step sign-in is on for your account, NessaHub sends you a 6-digit code every time you sign in, by email or text message. You choose which in Settings; text needs a verified mobile number. Even if someone learns your password, they cannot get in without the code."],
           ["h", "Forgot your password?"],
@@ -171,7 +173,7 @@ window.GUIDE.chapters.push(
             "**Notifications bell** — new messages, appointment changes, results and requests.",
             "**Home calendar** — tap a date to book on that day or see what is booked (see “Booking straight from your home calendar”).",
             "**NessaHub Assistant** — the round assistant button opens the AI helper for your role.",
-            "**Service switcher** — patients who use more than one service (for example therapy and medical care) can switch between them without signing out.",
+            "**Service switcher** — patients who use more than one service (for example therapy and medical care) can switch between them without signing out. You are also asked which one to open each time you sign in.",
             "**Report issue** — available on every dashboard to report a technical problem, a billing issue or a concern about a provider."
           ]]
         ]

@@ -134,6 +134,22 @@ window.GUIDE.chapters.push(
             ["p", "Esi is working on her anxiety with her therapist. Each evening she writes a few lines in her journal and picks a mood; on Fridays she shares that week's entry with her therapist. She also joined the Anxiety and stress group as “CalmWaters”, where another member's breathing tip helped her before a job interview."]
           ]
         },
+        {
+          id: "cl-add-medical",
+          title: "Seeing a doctor from your therapy account",
+          summary: "The assistant can add medical care to your therapy account in a few minutes, without a new sign-up.",
+          keywords: "see a doctor medical care assistant suggestion fever pain rash blood pressure one account both services",
+          body: [
+            ["ul", [
+            "**Seeing a doctor from the assistant** — if you mention a physical problem (a fever, pain, a rash, blood pressure, blood sugar and similar), the NessaHub Assistant answers and then asks whether you would like to see a doctor. Tap **Yes, find me a doctor** (or reply “yes”).",
+            "**Already done:** your account and sign-in, your contact details and the NessaHub policies you accepted. You never create a second account.",
+            "**What is left:** tell us what is wrong in three short steps, choose a doctor, then pick a time and pay. The medical dashboard is then added to your account.",
+            "The assistant asks once per conversation and never in an emergency (call 112 instead). **Not now** simply closes it. If you already see a doctor on NessaHub, it offers to open your medical dashboard instead."
+            ]],
+            ["h", "Example"],
+            ["p", "Esi mentions to the assistant that she has had a fever and sore throat for three days. The assistant suggests a doctor; she taps yes, describes her symptoms, picks a GP and books for that afternoon."]
+          ]
+        },
       {
         id: "cl-psychiatry",
         title: "Prescriptions, E-Pharmacy, Lab & Scan and Health Timeline (psychiatry clients)",
@@ -313,6 +329,22 @@ window.GUIDE.chapters.push(
             ]],
             ["h", "Example"],
             ["p", "Kofi has type 2 diabetes. He logs his fasting sugar and steps in his journal most mornings and shares the entries with his doctor before each visit. In the Living with diabetes group, as “SugarSteady”, he posts that his sugar came down after a month of evening walks, and five members encourage him."]
+          ]
+        },
+        {
+          id: "pt-add-therapy",
+          title: "Adding therapy to your account",
+          summary: "The assistant can add therapy to your medical account in a few minutes, without a new sign-up.",
+          keywords: "add therapy therapist assistant suggestion depressed stress anxiety overthinking one account both services",
+          body: [
+            ["ul", [
+            "**Adding therapy from the assistant** — if you mention something therapy can help with (overthinking, low mood, stress, anxiety, grief and similar), the NessaHub Assistant answers as usual and then asks whether you would like a therapist too. Tap **Yes, find me a therapist** (or reply “yes”) to see what is already done and what is left.",
+            "**Already done:** your account and sign-in, your contact details and the NessaHub policies you accepted. You never create a second account.",
+            "**What is left:** a few questions about how you have been feeling (your country, gender and age are filled in from your profile), the therapy consent and policies you sign with your name, choosing your therapist, and choosing a plan and paying. Then the therapy dashboard is added to your account.",
+            "The assistant asks once per conversation, never when your message is about an emergency or a crisis (it gives the emergency numbers instead), and **Not now** simply closes it. If you already have a therapist, it offers to open your therapy dashboard instead."
+            ]],
+            ["h", "Example"],
+            ["p", "Kojo tells the assistant he has been overthinking at night and feeling down since losing his job. After answering, the assistant asks whether he would like a therapist. He taps yes, answers the questions, signs the therapy consent, chooses a therapist and pays. Next time he signs in, NessaHub asks whether to open Medical or Therapy."]
           ]
         },
       {

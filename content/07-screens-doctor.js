@@ -326,6 +326,7 @@ window.GUIDE.chapters.push({
       keywords: "earnings payout fees refunds mobile money bank account payout details",
       body: [
         ["ul", [
+          "**Total Earnings** — every paid booking's price minus NessaHub's commission and any refunds. It is the same figure Analytics shows.",
           "**Next payout**, **Pending**, **Being sent** and **Paid to you so far**.",
           "**Bookings** and **Payouts** lists, and **Refund adjustments** for refunds on bookings that were already paid out to you.",
           "**Where we pay you** — mobile money or bank account. Changing it pauses payouts until NessaHub's finance team confirms the change, and you are emailed every time it changes."
@@ -373,7 +374,7 @@ window.GUIDE.chapters.push({
         ["ul", [
           "**Patient Feedback** — anonymous results from NessaHub feedback surveys.",
           "**Reviews** — patients' ratings and comments after consultations, with a rating overview. You can **Reply** to each.",
-          "**Analytics** — total earnings, appointments and patients; appointments and earnings by month; status breakdown (completed, cancelled, pending) and consultation types."
+          "**Analytics** — total earnings (the same figure as the Earnings screen: after commission and refunds), appointments and patients; appointments and earnings by month; status breakdown (completed, cancelled, pending) and consultation types."
         ]],
         ["h", "Example"],
         ["p", "Dr Mensah gets a 3-star review saying the call started late. She replies to apologise and explain. In Analytics she notices more cancellations on Mondays, and moves her Monday availability later in the day."]
